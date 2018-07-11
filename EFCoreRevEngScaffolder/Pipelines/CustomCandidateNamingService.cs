@@ -7,7 +7,7 @@ using System.Text;
 
 namespace EFCoreRevEngScaffolder.Pipelines
 {
-    public class CandidateNamingService : ICandidateNamingService
+    public class CustomCandidateNamingService : ICandidateNamingService
     {
         public string GenerateCandidateIdentifier(DatabaseTable originalTable)
         {
